@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nome/Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Seção 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper, libero et feugiat elementum, velit urna varius lorem.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Seção 2</h2>
+        <p>Nullam tincidunt, felis ut rhoncus pretium, lectus nunc consequat arcu, non placerat ipsum mauris ac libero.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Seção 3</h2>
+        <p>Praesent at orci eu quam convallis venenatis. Suspendisse eget varius justo, non malesuada tortor.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="year"></span> By Miguel.
+    </div>
+  </footer>
+
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Atualiza o ano atual no rodapé
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
